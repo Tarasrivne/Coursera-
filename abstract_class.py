@@ -4,9 +4,17 @@ class Employee(ABC):
     @abstractmethod
     def donate(self):
         pass
+    @abstractmethod
+    def receive(self):
+        pass
+
 class Donation(Employee):
     def donate(self):
-        a = input("How much would you like to donate: ")
+        pass# a = input("How much would you like to donate: ")
+    def receive(self):
+        pass
+
+
 
 amounts = []
 ben = Donation()
