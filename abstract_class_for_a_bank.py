@@ -68,7 +68,7 @@ def main():
     assert issubclass(Bank, ABC), "Bank must derive from class ABC"
     s = Swiss()
     print(s.basicinfo())
-    s.withdraw(30)
+    s.withdraw(300)
     s.withdraw(1000)
 
 if __name__ == "__main__":
